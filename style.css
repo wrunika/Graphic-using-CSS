@@ -1,3 +1,10 @@
+p {
+  text-align: center;
+  color: darkmagenta;
+  font-style: italic;
+}
+
+
 /* moon shape */
 .center {
   margin: 40px auto;
