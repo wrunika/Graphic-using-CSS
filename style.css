@@ -97,6 +97,10 @@ button:hover {
 }
 
 /* an element (ball) fades*/
+.p-jumping {
+  margin-top: 170px;
+}
+
 #ball {
   width: 70px;
   height: 70px;
