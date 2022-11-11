@@ -224,7 +224,8 @@ button:hover {
 }
 
 .star-1 {
-  margin-top: -40%;
+  background-color: yellow;
+  margin-top: -2%;
   margin-left: 60%;
   animation-name: twinkle-1;
   animation-duration: 1s;
