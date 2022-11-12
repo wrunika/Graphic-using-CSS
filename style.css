@@ -262,3 +262,29 @@ button:hover {
   height: 200px;
   background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6);
 }
+
+/* a horizontal line*/
+h4 {
+  text-align: center;
+  height: 25px;
+}
+.cardText p {
+  text-align: justify;
+}
+.links {
+  text-align: left;
+  color: black;
+}
+.fullCard {
+  width: 245px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 4px;
+}
+.cardContent {
+  padding: 10px;
+}
+.cardText {
+  margin-bottom: 30px;
+}
