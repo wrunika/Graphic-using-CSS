@@ -277,9 +277,10 @@ h4 {
 }
 .fullCard {
   width: 245px;
+  background-color: antiquewhite;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin: 90px auto;
+  margin: 170px auto;
   padding: 4px;
 }
 .cardContent {
