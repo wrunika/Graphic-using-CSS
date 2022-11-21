@@ -319,3 +319,13 @@ h4 {
     top: 249px;
   }
 }
+
+/*form with date*/
+.form-date {
+  text-align: center;
+}
+
+.form-date p {
+  color: inherit;
+  font-style: normal;
+}
