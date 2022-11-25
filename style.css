@@ -5,6 +5,16 @@ p {
 }
 
 /* moon shape */
+.sky {
+  background-color: darkblue;
+  padding-bottom: 10px;
+}
+
+.sky-p {
+  padding-top: 15px;
+  color: yellow;
+}
+
 .center {
   margin: 40px auto;
   width: 100px;
