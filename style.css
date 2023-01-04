@@ -39,7 +39,7 @@ p {
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 0px;
+  top: 0;
   left: 25px;
 }
 .heart::before {
@@ -50,7 +50,7 @@ p {
   width: 50px;
   height: 50px;
   top: -25px;
-  left: 0px;
+  left: 0;
 }
 
 /* button with keyframes */
@@ -90,8 +90,8 @@ button:hover {
 @keyframes rainbow {
   0% {
     background-color: blue;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
   }
   50% {
     background-color: green;
@@ -100,7 +100,7 @@ button:hover {
   }
   100% {
     background-color: yellow;
-    top: 0px;
+    top: 0;
     left: -25px;
   }
 }
@@ -149,7 +149,7 @@ button:hover {
 
 @keyframes bounce {
   0% {
-    top: 0px;
+    top: 0;
   }
   50% {
     top: 249px;
@@ -157,7 +157,7 @@ button:hover {
     height: 70px;
   }
   100% {
-    top: 0px;
+    top: 0;
   }
 }
 
@@ -185,7 +185,7 @@ button:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: pink;
+  background-color: fuchsia;
   height: 50px;
   width: 50px;
   transform: rotate(-45deg);
@@ -194,24 +194,24 @@ button:hover {
   animation-iteration-count: infinite;
 }
 .heartbeat:after {
-  background-color: pink;
+  background-color: fuchsia;
   content: "";
   border-radius: 50%;
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 0px;
+  top: 0;
   left: 25px;
 }
 .heartbeat:before {
-  background-color: pink;
+  background-color: fuchsia;
   content: "";
   border-radius: 50%;
   position: absolute;
   width: 50px;
   height: 50px;
   top: -25px;
-  left: 0px;
+  left: 0;
 }
 
 @keyframes backdiv {
@@ -332,7 +332,7 @@ h4 {
 }
 @keyframes bounce {
   0% {
-    top: 0px;
+    top: 0;
   }
   100% {
     top: 249px;
